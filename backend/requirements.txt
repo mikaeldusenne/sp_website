@@ -1,0 +1,13 @@
+Click
+Flask
+Flask-Cors
+Flask-Login
+Flask-Bcrypt
+flask_wtf
+itsdangerous
+Jinja2
+MarkupSafe
+six
+Werkzeug
+pymongo
+pyyaml

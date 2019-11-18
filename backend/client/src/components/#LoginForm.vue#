@@ -1,0 +1,73 @@
+<template>
+<div class="container">
+  <div class="card" style="width: 18rem;">
+    <form class="form-signin" method="post" action="/login">
+      <!-- <div class="form-group"> -->
+        <input type="text" class="form-control" name="id" id="inputId" placeholder="id" autofocus="">
+        <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password">
+      <!-- </div> -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+
+</template>
+
+<script>
+  export default {
+  name: 'Login',
+  data() {
+  return {
+  }
+  },
+  methods: {
+  }
+  }
+</script>
+
+<style scoped>
+  #login {
+  width: 500px;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  }
+  .card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  }
+  
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+</style>
